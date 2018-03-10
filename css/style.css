@@ -289,7 +289,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*--------------------------
     5.2 Navigations Regular
    ----------------------------*/
-.hero-section { background: url(https://github.com/pabloarca/catedrageo/blob/master/images/hero-img.jpg) no-repeat center; background-size: cover; }
+.hero-section { background: url(/images/hero-img.jpg) no-repeat center; background-size: cover; }
 .hero-section-caption { padding-top: 200px; padding-bottom: 200px; }
 .hero-title { color: #fff; font-size: 65px; letter-spacing: -1px; }
 .hero-text { color: #fff; font-size: 20px; font-weight: 300; }
