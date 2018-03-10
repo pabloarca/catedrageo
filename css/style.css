@@ -284,7 +284,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .logo { }
 .header { padding-top: 20px; padding-bottom: 20px; }
 .top-header { padding-top: 24px; padding-bottom: 24px; }
-.header-collapse {background-color:#101a38;}
+.header-collapse {background-color:#101a38;opacity: 0.8;}
 
 /*--------------------------
     5.2 Navigations Regular
