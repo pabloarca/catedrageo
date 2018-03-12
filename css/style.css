@@ -197,7 +197,7 @@ button.btn { height: 50px; margin-right: -1px; }
 ----------------------------------*/
 .bg-light { }
 .bg-primary { }
-.bg-default { background-color: ##101a38; color: #fff; }
+.bg-default { background-color: #101a38; color: #fff; }
 .bg-white { background-color: #fff; }
 .outline { }
 .section-title { }
