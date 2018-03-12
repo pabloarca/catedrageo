@@ -602,7 +602,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     .navigation {
     float: none;
     margin-top: 20px;
-    background: #101a38;
+    background: #101a38, opacity: 0.8;
 }
 .page-section {
        padding: 180px 0px 40px 0px;
@@ -624,7 +624,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     .navigation {
     float: none;
     margin-top: 20px;
-    background: #101a38;
+    background: #101a38, opacity: 0.8;
 }
 .hero-section-caption {
     padding-top: 180px;
@@ -657,7 +657,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
    .navigation {
     float: none;
     margin-top: 20px;
-    background: #101a38;
+    background: #101a38, opacity: 0.8;
 }
 .hero-section-caption {
     padding-top: 180px;
