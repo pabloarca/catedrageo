@@ -100,7 +100,7 @@ label { }
 text-transform: uppercase; font-weight: 700; padding: 12px 14px; border: none; margin-bottom: 4px; }
 .btn-default { background-color: #002E5D; color: #fff; }
 .btn-default:hover { background-color: #0994a6; color: #fff; }
-.btn-primary { background-color: #002E5D; color: #fff; }
+.btn-primary { background-color: #00AEC7; color: #fff; }
 .btn-primary:hover { background-color: #172651; color: #fff; }
 .btn-primary.focus, .btn-primary:focus { background-color: #172651; color: #fff; }
 .btn-lg { padding: 16px 24px; font-size: 15px; text-align: center; }
