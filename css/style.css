@@ -320,7 +320,9 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
  background: #dddddd;
  content: '';
 }*/
-#navigation > ul > li.has-sub > a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107"; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
+#navigation > ul > li.has-sub > a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107";
+  -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease;
+  transition: all .25s ease; }
 
 /*#navigation > ul > li.has-sub:hover > a:before {
  top: 23px;
@@ -472,6 +474,37 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .contact-info li { position: relative; padding-left: 34px; margin-bottom: 10px }
 .contact-info li i { display: block; position: absolute; top: 0px; left: 0; font-size: 20px; color: #6a6e6e; text-align: center }
 .get-in-touch {}
+
+/*social media icons*/
+social-round-icon{
+    border:1px solid #838383;
+    border-radius:50px;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.social-round-icon:hover{
+    background-color:#1763e9;
+    color:#fff;
+    border-color:#1763e9
+}
+.social-round-icon.white-round-icon{
+    border:1px solid #fff;
+    color:#fff
+}
+.social-round-icon.white-round-icon:hover{
+    background-color:#fff;
+    color:#1763e9;
+    border-color:#fff
+}
+.fa-icon{
+    color:#838383;
+    width:32px;
+    height:32px;
+    display:inline-block;
+    line-height:32px;
+    font-size:15px;
+    text-align:center
 
 /*------------------------
 10. Blog pages
