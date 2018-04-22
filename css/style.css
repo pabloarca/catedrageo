@@ -10,13 +10,13 @@ Created Date:       30/05/2017
 Author: EaseTemplate
 Author URL: https://easetemplate.com/
 License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/ 
-  
+License URL: http://creativecommons.org/licenses/by/3.0/
+
 
 ------------------------------------------------------------------
 [CSS Table of contents]
 
-1.  Body / Typography 
+1.  Body / Typography
 2.  Form Elements
 3.  Buttons
 4.  General / Elements
@@ -61,7 +61,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 ------------------------------------------------------------------*/
 
 /*-----------------------------------
-    1. Body / Typography 
+    1. Body / Typography
 -----------------------------------*/
 
 body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: 'Nunito', sans-serif; font-size: 16px; line-height: 1.6; color: #5a5e5f; }
@@ -80,7 +80,7 @@ blockquote { padding: 10px 20px; margin: 0 0 20px; font-size: 18px; border-left:
 strong { color: #333; font-weight: 800; }
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #f1f3f8; }
 
-/*----------------------- 
+/*-----------------------
     2 Form Elements:
 -------------------------*/
 label { }
@@ -94,9 +94,9 @@ label { }
 .input-group { position: relative; display: table; border-collapse: separate; }
 
 /*-----------------------------------
-    3. Buttons 
+    3. Buttons
 -----------------------------------*/
-.btn { font-family: 'Nunito', sans-serif; font-size: 14px; border-radius: 2px; 
+.btn { font-family: 'Nunito', sans-serif; font-size: 14px; border-radius: 2px;
 text-transform: uppercase; font-weight: 700; padding: 12px 14px; border: none; margin-bottom: 4px; }
 .btn-default { background-color: #002E5D; color: #fff; }
 .btn-default:hover { background-color: #0994a6; color: #fff; }
@@ -111,10 +111,10 @@ text-transform: uppercase; font-weight: 700; padding: 12px 14px; border: none; m
 button.btn { height: 50px; margin-right: -1px; }
 
 /*-----------------------------------
-    4. General / Elements 
+    4. General / Elements
 -----------------------------------*/
 
-/*----------------------- 
+/*-----------------------
     4.1 Section space :
 -------------------------*/
 
@@ -193,7 +193,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .pdr80 { padding-right: 80px; }
 
 /*--------------------------------
-4.4 Background & Block color 
+4.4 Background & Block color
 ----------------------------------*/
 .bg-light { }
 .bg-primary { }
@@ -209,7 +209,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .well-block { }
 
 /*--------------------------------
-4.5 Features Block 
+4.5 Features Block
 ----------------------------------*/
 .feature { }
 .feature-block { }
@@ -233,7 +233,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .arrow-chevron-circle-right li:before { font-family: FontAwesome; display: block; position: absolute; left: 0; width: 13px; font-size: 14px; color: #78807e; content: "\f138"; }
 
 /*--------------------------------
-4.7 Call to actions 
+4.7 Call to actions
 ----------------------------------*/
 .cta-section { background-color: #13a0b2; padding-bottom: 50px; padding-top: 50px; text-align: center; }
 .widget-cta { background-color: #e96144; padding: 30px; border-radius: 2px; }
@@ -246,19 +246,12 @@ button.btn { height: 50px; margin-right: -1px; }
 .cta-title { font-size: 46px; color: #fff; margin-bottom: 30px; }
 
 /*--------------------------------
- 4.8 Image Hover Effect 
+ 4.8 Image Hover Effect
 ----------------------------------*/
-img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; line-height: normal; vertical-align: middle; }
-.imghover { display: block; position: relative; max-width: 100%; }
-.imghover::before, .imghover::after { display: block; position: absolute; content: ""; text-align: center; opacity: 0; }
-.imghover::before { top: 0; right: 0; bottom: 0; left: 0; }
-.imghover::after { top: 50%; left: 50%; width: 50px; height: 50px; line-height: 50px; margin: -25px 0 0 -25px; content: "\f2a8"; font-family: "FontAwesome"; font-size: 36px; }
-.imghover:hover::before, .imghover:hover::after { opacity: 1; }
-.imghover:hover::before { background: rgba(34, 142, 156, .50); }
-.imghover:hover::after { color: #FFFFFF; }
+
 
 /*--------------------------------
-4.9 Icon 
+4.9 Icon
 ----------------------------------*/
 .icon { }
 .icon-1x { font-size: 18px; }
@@ -274,17 +267,17 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .icon-white { color: #fff; }
 
 /*--------------------------------
-5 Header / Navigations 
+5 Header / Navigations
 ----------------------------------*/
 
 /*--------------------
-    5.1 Header Regular 
+    5.1 Header Regular
    ----------------------*/
 
 .logo { }
-.header { padding-top: 20px; padding-bottom: 20px; }
+.header { padding-top: 20px; padding-bottom: 20px; background-color: #002E5D; }
 .top-header { padding-top: 24px; padding-bottom: 24px; }
-.header-collapse {background-color: #002E5D; }
+
 
 /*--------------------------
     5.2 Navigations Regular
@@ -380,16 +373,16 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .page-breadcrumb .breadcrumb { background-color: transparent; padding: 5px 0px; margin-bottom: 0px; font-size: 13px; font-weight: 900; border: none; letter-spacing: 1px; text-transform: uppercase; color: #fff; }
 
 /*-----------------------------------
-    6. Slider 
+    6. Slider
 -------------------------------------*/
 
 /*-----------------------------------
-7. Content 
+7. Content
 -------------------------------------*/
 
 /*-----------------------------------
-8. Footer 
--------------------------------------*/   
+8. Footer
+-------------------------------------*/
 
 .footer { background-color: #171a1a; padding-top: 50px; padding-bottom: 50px; color: #6d7272; }
 .footer-widget hr { margin-bottom: 20px; margin-top: 19px; border-bottom: 1px solid #414141; }
@@ -407,7 +400,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .tiny-footer { background-color: #131515; padding-top: 20px; padding-bottom: 20px; font-size: 14px; color: #6d7272; text-align: center; }
 
 /*-----------------------------------
-9. Pages 
+9. Pages
 -------------------------------------*/
 
 /*-------------------------
@@ -416,7 +409,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 
 /*-------------------------
  9.2  Service / single / sidebar
---------------------------*/   
+--------------------------*/
 
 .service-block { padding: 30px; margin-bottom: 30px; text-align: center; }
 .service-block:hover { background-color: #f3fafb; }
@@ -596,12 +589,12 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width:1200px) {
-   
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width:992px) {
-   
+
 }
 
 /* Small Devices, Tablets */
@@ -623,7 +616,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     padding-top: 0px;
     color: #d9dfe0;
 }
-  
+
 }
 
 /* Extra Small Devices, Phones */
@@ -656,7 +649,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     padding-top: 0px;
     color: #d9dfe0;
 }
-   
+
 }
 
 /* Custom, iPhone Retina */
@@ -690,6 +683,3 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     color: #d9dfe0;
 }
 }
-
-
-
