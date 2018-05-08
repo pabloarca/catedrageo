@@ -96,18 +96,18 @@ label { }
 /*-----------------------------------
     3. Buttons
 -----------------------------------*/
-.btn { font-family: 'Nunito', sans-serif; font-size: 14px; border-radius: 2px;
+.btn { font-family: 'Nunito', sans-serif; font-size: 14px; border-radius: 12px;
 text-transform: uppercase; font-weight: 700; padding: 12px 14px; border: none; margin-bottom: 4px; }
-.btn-default { background-color: #002E5D; color: #fff; }
-.btn-default:hover { background-color: #0994a6; color: #fff; }
-.btn-primary { background-color: #00AEC7; color: #fff; }
-.btn-primary:hover { background-color: #172651; color: #fff; }
-.btn-primary.focus, .btn-primary:focus { background-color: #172651; color: #fff; }
+.btn-default { background-color: #447270; color: #fff; }
+.btn-default:hover { background-color: #447270; color: #fff; }
+.btn-primary { background-color: #447270; color: #fff; }
+.btn-primary:hover { background-color: #365b5a; color: #fff; }
+.btn-primary.focus, .btn-primary:focus { background-color: #365b5a; color: #fff; }
 .btn-lg { padding: 16px 24px; font-size: 15px; text-align: center; }
 .btn-sm { padding: 12px 18px; }
 .btn-xs { padding: 8px 10px; }
-.btn-link { color: #ed6345; text-transform: uppercase; font-size: 14px; font-weight: 700; letter-spacing: 1px; border-bottom: 1px solid #ed6345; padding-bottom: 2px; }
-.btn-link:hover { color: #ed6345; text-decoration: none; border-bottom: 1px solid #ed6345; }
+.btn-link { color: #365b5a; text-transform: uppercase; font-size: 14px; font-weight: 700; letter-spacing: 1px; border-bottom: 1px solid #365b5a; padding-bottom: 2px; }
+.btn-link:hover { color: #365b5a; text-decoration: none; border-bottom: 1px solid #365b5a; }
 button.btn { height: 50px; margin-right: -1px; }
 
 /*-----------------------------------
@@ -197,7 +197,12 @@ button.btn { height: 50px; margin-right: -1px; }
 ----------------------------------*/
 .bg-light { }
 .bg-primary { }
-.bg-default { background-color: #002E5D; color: #fff; }
+.bg-default { width:100%;
+              height:auto;
+              background-image: url("../images/fondo.png");
+              background-size: 100% 100%;
+              color: #fff;
+  }
 .bg-white { background-color: #fff; }
 .outline { }
 .section-title { }
@@ -220,11 +225,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .feature-btn { text-align: center; margin-top: 40px; }
 .feature-text .feature-title { color: #fff; }
 
-/*----------------- video ---------------*/
-.video-section { }
-.video-img { }
-.video-img img { }
-.video-action { }
+
 
 /*--------------------------------
 4.6 Bullet/arrow
@@ -275,7 +276,7 @@ button.btn { height: 50px; margin-right: -1px; }
    ----------------------*/
 
 .logo { }
-.header { padding-top: 20px; padding-bottom: 20px; background-color: #002E5D; }
+.header { padding-top: 20px; padding-bottom: 20px; background-color: rgba(68, 114, 112, 0.9) }
 .top-header { padding-top: 24px; padding-bottom: 24px; }
 
 
@@ -297,7 +298,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right > ul > li { float: right; }
 #navigation > ul > li > a { padding: 16px; font-size: 14px; color: #fff; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; }
-#navigation > ul > li:hover > a { color: #ffffff; background-color: #101a38; }
+#navigation > ul > li:hover > a { color: #ffffff; background-color:#365b5a ; }
 #navigation > ul > li.has-sub > a { padding-right: 32px; }
 
 /*#navigation > ul > li.has-sub > a:after {
@@ -324,7 +325,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation li:hover > ul > li { height: 39px; }
 #navigation ul ul ul { margin-left: 100%; top: 0; }
 #navigation.align-right ul ul ul { margin-left: 0; margin-right: 100%; }
-#navigation ul ul li a { padding: 12px 16px; width: 170px; font-size: 14px; text-decoration: none; color: #fff; font-weight: 700; background:#002E5D; text-transform: uppercase; border-bottom: 1px solid #002E5D; }
+#navigation ul ul li a { padding: 12px 16px; width: 170px; font-size: 14px; text-decoration: none; color: #fff; font-weight: 700; background:#79C0AE; text-transform: uppercase; border-bottom: 1px solid #79C0AE; }
 #navigation ul ul li:last-child > a, #navigation ul ul li.last-item > a { border-bottom: 0; }
 #navigation ul ul li:hover > a, #navigation ul ul li a:hover { color: #ffffff; background-color: #22397c; }
 #navigation ul ul li.has-sub > a:after { position: absolute; top: 16px; right: 11px; width: 8px; height: 2px; display: block; background: #dddddd; content: ''; }
@@ -335,7 +336,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.small-screen { width: 100%; }
 #navigation.small-screen ul { width: 100%; display: none; }
 #navigation.small-screen.align-center > ul { text-align: left; }
-#navigation.small-screen ul li {width: 100%;border-top: 1px solid #002E5D;}
+#navigation.small-screen ul li {width: 100%;border-top: 1px solid #79C0AE;}
 #navigation.small-screen ul ul li, #navigation.small-screen li:hover > ul > li { height: auto; }
 #navigation.small-screen ul li a, #navigation.small-screen ul ul li a { width: 100%; border-bottom: 0; padding: 20px 15px; }
 #navigation.small-screen > ul > li { float: none; }
@@ -682,4 +683,16 @@ button.btn { height: 50px; margin-right: -1px; }
     padding-top: 0px;
     color: #d9dfe0;
 }
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
