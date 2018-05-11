@@ -1258,7 +1258,7 @@ a.bg-danger:focus,a.bg-danger:hover{
     background-color:#e4b9b9
 }
 .page-header{
-    padding-bottom:9px;
+    padding-bottom:900px;
     margin:40px 0 20px;
     border-bottom:1px solid #eee
 }
@@ -5774,5 +5774,13 @@ button.close{
 }
 
 
+/*ZZZZZZ*/
+@media screen and (max-width: 768px) {
 
+.logo img, body.home.title-tagline-hidden.has-header-image .logo img, body.home.title-tagline-hidden.has-header-video .logo img {
+    max-width: 30%;
+    max-height: 20%;
+}
+
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
