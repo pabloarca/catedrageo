@@ -5765,4 +5765,14 @@ button.close{
         display:none!important
     }
 }
+
+.responsive-img{
+  max-width:100%;
+  height:auto;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+
 /*# sourceMappingURL=bootstrap.min.css.map */
