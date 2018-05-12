@@ -279,7 +279,7 @@ button.btn { height: 50px; margin-right: -1px; }
    ----------------------*/
 
 .logo { }
-.header { padding-top: 10px; padding-bottom: 10px; background-image: linear-gradient(120deg, #404859 0%, #131629 100%); }
+.header { padding-top: 10px; padding-bottom: 10px; background-image: linear-gradient(120deg, #404859 0%, #131629 100%); opacity: 0.8;}
 .top-header { padding-top: 24px; padding-bottom: 24px; }
 
 
