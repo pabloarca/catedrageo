@@ -98,10 +98,10 @@ label { }
 -----------------------------------*/
 .btn { font-family: 'Nunito', sans-serif; font-size: 14px; border-radius: 12px;
 text-transform: uppercase; font-weight: 700; padding: 12px 14px; border: none; margin-bottom: 4px; }
-.btn-default { background-color: #447270; color: #fff; }
-.btn-default:hover { background-color: #447270; color: #fff; }
-.btn-primary { background-color: #447270; color: #fff; }
-.btn-primary:hover { background-color: #365b5a; color: #fff; }
+.btn-default { background-color: #e83b20; color: #fff; }
+.btn-default:hover { background-color: #e8634e; color: #fff; }
+.btn-primary { background-color: #e83b20; color: #fff; }
+.btn-primary:hover { background-color: #e8634e; color: #fff; }
 .btn-primary.focus, .btn-primary:focus { background-color: #365b5a; color: #fff; }
 .btn-lg { padding: 16px 24px; font-size: 15px; text-align: center; }
 .btn-sm { padding: 12px 18px; }
@@ -279,14 +279,14 @@ button.btn { height: 50px; margin-right: -1px; }
    ----------------------*/
 
 .logo { }
-.header { padding-top: 20px; padding-bottom: 20px; background-color: rgba(68, 114, 112, 0.9) }
+.header { padding-top: 10px; padding-bottom: 10px; background-image: linear-gradient(120deg, #404859 0%, #131629 100%); }
 .top-header { padding-top: 24px; padding-bottom: 24px; }
 
 
 /*--------------------------
     5.2 Navigations Regular
    ----------------------------*/
-.hero-section { background: url(../images/hero-img.jpg) no-repeat center; background-size: cover; }
+.hero-section { background: url(../images/hero-img.png) no-repeat center; background-size: cover; }
 .hero-section-caption { padding-top: 200px; padding-bottom: 200px; }
 .hero-title { color: #fff; font-size: 65px; letter-spacing: -1px; }
 .hero-text { color: #fff; font-size: 20px; font-weight: 300; }
@@ -301,7 +301,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right > ul > li { float: right; }
 #navigation > ul > li > a { padding: 16px; font-size: 13px; color: #fff; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; }
-#navigation > ul > li:hover > a { color: #ffffff; background-color:#365b5a ; }
+#navigation > ul > li:hover > a { color: #ffffff; background-color:#313744; }
 #navigation > ul > li.has-sub > a { padding-right: 32px; }
 
 /*#navigation > ul > li.has-sub > a:after {
@@ -328,9 +328,9 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation li:hover > ul > li { height: 39px; }
 #navigation ul ul ul { margin-left: 100%; top: 0; }
 #navigation.align-right ul ul ul { margin-left: 0; margin-right: 100%; }
-#navigation ul ul li a { padding: 12px 16px; width: 170px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 700; background:#79C0AE; text-transform: uppercase; border-bottom: 1px solid #79C0AE; }
+#navigation ul ul li a { padding: 12px 16px; width: 170px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 700; background:#313744; text-transform: uppercase; border-bottom: 1px solid #313744; }
 #navigation ul ul li:last-child > a, #navigation ul ul li.last-item > a { border-bottom: 0; }
-#navigation ul ul li:hover > a, #navigation ul ul li a:hover { color: #ffffff; background-color: #22397c; }
+#navigation ul ul li:hover > a, #navigation ul ul li a:hover { color: #ffffff; background-color: #313744 ; }
 #navigation ul ul li.has-sub > a:after { position: absolute; top: 16px; right: 11px; width: 8px; height: 2px; display: block; background: #dddddd; content: ''; }
 #navigation.align-right ul ul li.has-sub > a:after { right: auto; left: 11px; }
 #navigation ul ul li.has-sub > a:before { position: absolute; top: 13px; right: 14px; display: block; width: 2px; height: 8px; background: #dddddd; content: ''; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
@@ -339,7 +339,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.small-screen { width: 100%; }
 #navigation.small-screen ul { width: 100%; display: none; }
 #navigation.small-screen.align-center > ul { text-align: left; }
-#navigation.small-screen ul li {width: 100%;border-top: 1px solid #79C0AE;}
+#navigation.small-screen ul li {width: 100%;border-top: 1px solid #313744;}
 #navigation.small-screen ul ul li, #navigation.small-screen li:hover > ul > li { height: auto; }
 #navigation.small-screen ul li a, #navigation.small-screen ul ul li a { width: 100%; border-bottom: 0; padding: 20px 15px; }
 #navigation.small-screen > ul > li { float: none; }
@@ -605,8 +605,8 @@ button.btn { height: 50px; margin-right: -1px; }
 @media only screen and (max-width:768px) {
     .navigation {
     float: none;
-    margin-top: 20px;
-    background: #22397c;
+    margin-top: 5px;
+    background: #313744;
 }
 .page-section {
        padding: 180px 0px 40px 0px;
@@ -627,8 +627,8 @@ button.btn { height: 50px; margin-right: -1px; }
 @media only screen and (max-width:480px) {
     .navigation {
     float: none;
-    margin-top: 20px;
-    background: #22397c;
+    margin-top: 5px;
+    background: #313744;
 }
 .hero-section-caption {
     padding-top: 180px;
@@ -660,8 +660,8 @@ button.btn { height: 50px; margin-right: -1px; }
 @media only screen and (max-width:320px) {
    .navigation {
     float: none;
-    margin-top: 20px;
-    background: #22397c;
+    margin-top: 5px;
+    background: #313744;
 }
 .hero-section-caption {
     padding-top: 180px;

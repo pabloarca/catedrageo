@@ -5778,9 +5778,8 @@ button.close{
 @media screen and (max-width: 768px) {
 
 .logo img, body.home.title-tagline-hidden.has-header-image .logo img, body.home.title-tagline-hidden.has-header-video .logo img {
-    max-width: 30%;
-    max-height: 20%;
+    max-width: 40%;
+    max-height: 30%;
 }
-
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
