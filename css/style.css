@@ -352,15 +352,15 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.small-screen #menu-button {display: block;padding: 15px;color: #fff;cursor: pointer;font-size: 12px;text-transform: uppercase;font-weight: 700;}
 #navigation.small-screen #menu-button:after {position: absolute;top: 16px;right: 17px;display: block;height: 12px;width: 20px;border-top: 2px solid #fff;border-bottom: 2px solid #fff;content: '';}
 #navigation.small-screen #menu-button:before {position: absolute;top: 21px;right: 17px;display: block;height: 2px;width: 20px;background: #fff;content: '';}
-#navigation.small-screen #menu-button.menu-opened:after {top: 23px;border: 0;height: 2px;width: 15px;background: #002E5D;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}
+#navigation.small-screen #menu-button.menu-opened:after {top: 23px;border: 0;height: 2px;width: 15px;background: #fff;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}
 #navigation.small-screen #menu-button.menu-opened:before {top: 23px;background: #070c23;width: 15px;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
-#navigation.small-screen .submenu-button {position: absolute;z-index: 99;right: 0;top: 0;display: block;border-left: 1px solid #002E5D;height: 53px;width: 53px;cursor: pointer;}
+#navigation.small-screen .submenu-button {position: absolute;z-index: 99;right: 0;top: 0;display: block;border-left: 1px solid #fff;height: 53px;width: 53px;cursor: pointer;}
 #navigation.small-screen .submenu-button.submenu-opened { }
 #navigation.small-screen ul ul .submenu-button { height: 34px; width: 34px; }
-#navigation.small-screen .submenu-button:after {position: absolute;top: 22px;right: 20px;width: 8px;height: 2px;display: block;background: #002E5D;content: '';}
+#navigation.small-screen .submenu-button:after {position: absolute;top: 22px;right: 20px;width: 8px;height: 2px;display: block;background: #fff;content: '';}
 #navigation.small-screen ul ul .submenu-button:after { top: 15px; right: 13px; }
-#navigation.small-screen .submenu-button.submenu-opened:after { background: #0f0e3a; }
-#navigation.small-screen .submenu-button:before {position: absolute;top: 19px;right: 23px;display: block;width: 2px;height: 8px;background: #002E5D;content: '';}
+#navigation.small-screen .submenu-button.submenu-opened:after { background: #fff; }
+#navigation.small-screen .submenu-button:before {position: absolute;top: 19px;right: 23px;display: block;width: 2px;height: 8px;background: #fff;content: '';}
 #navigation.small-screen ul ul .submenu-button:before { top: 12px; right: 16px; }
 #navigation.small-screen .submenu-button.submenu-opened:before { display: none; }
 #navigation.small-screen.select-list { padding: 5px; }
